@@ -86,5 +86,5 @@ def mainLoop(device):
 
 if __name__ == '__main__':
     try:
-        mainLoop(sys.argv[1])
+        mainLoop("/dev/ttyUSB0")
     except rospy.ROSInterruptException: pass
